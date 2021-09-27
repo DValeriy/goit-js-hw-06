@@ -41,9 +41,9 @@ root.insertAdjacentHTML('afterbegin', strHtml)
 //     imgNode.style.height =`400px`;
 //     liNode.append(imgNode)
 //     console.log(liNode);
-//     console.log(liNode.toString())
-//     console.log(`${liNode}`)
-//     return liNode
+//     console.log(liNode.outerHTML)
+//     // console.log(`${liNode}`)
+//     return liNode.outerHTML
 //     return liNode.toString()
 // })
 // let strHtml = arrHtml.join(",");

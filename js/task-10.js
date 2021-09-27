@@ -11,7 +11,7 @@ const createBoxes = (amount) => {
   let styleSize=30
   for (let i = 0; i < amount; i++) {
     let divEl = document.createElement("div")
-    divEl.style.display="inline-block"
+    divEl.style.display="block"
     divEl.style.width = `${styleSize}px`;
     divEl.style.height = `${styleSize}px`;
     divEl.style.backgroundColor = getRandomHexColor();
